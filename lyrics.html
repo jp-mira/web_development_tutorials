@@ -19,13 +19,22 @@
 
     <br>
 
-
     <!-- audio in html other approach -->
     <audio controls autoplay muted loop>
-        <source src="music-folder/Sam Smith - Lay Me Down.mp3">
+        <source src="music-folder/Sam Smith - Lay Me Down.mp3" type="audio/mpeg">
         <!-- fallback if browser does not support the mp3 -->
-         <source src="music-folder/Sam Smith - Lay Me Down.wav">
+         <source src="music-folder/Sam Smith - Lay Me Down.wav" type="audio/mp3">
     </audio>
+
+    <br>
+
+    <!-- video in html -->
+    <a href="https://en.wikipedia.org/wiki/Lay_Me_Down_(Sam_Smith_song)" title="Song Details" target="_blank">
+        <video controls autoplay muted loop height="500px">
+            <source src="video-folder/Sam Smith - Lay Me Down.mp4">
+        </video>
+    </a>
+    
     <pre>
     Yes, I do, I believe
     That one day I will be
